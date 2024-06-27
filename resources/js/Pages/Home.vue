@@ -1,9 +1,14 @@
 <script setup>
 
+import {usePage} from "@inertiajs/vue3";
+
+let page = usePage();
+
 </script>
 
 <template>
-<h2>fdljfdkfjdkfjkl</h2>
+    <AppHead title="Home"/>
+    <h2>Home page</h2>
 </template>
 
 <style scoped>
